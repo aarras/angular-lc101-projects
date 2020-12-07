@@ -1,0 +1,11 @@
+.chores {
+    font-family: arial, helvetica, sans-serif;
+    color: red;
+}
+li {
+    font-size: 1.25em;
+    font-style: italic;
+}
+h3 {
+    text-decoration: underline;
+}
