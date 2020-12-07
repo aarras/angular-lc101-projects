@@ -1,0 +1,14 @@
+#links {
+    text-align: center;
+    font-size: 2em;
+}
+.v1 {
+    border-left: 6px dashed green;
+    height: auto;
+}
+hr {
+    border-top: 6px dashed green;
+}
+body {
+    background-color:lightblue;
+}
