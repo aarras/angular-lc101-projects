@@ -7,9 +7,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MovieListComponent implements OnInit {
    movies = ['Toy Story', 'The Shining', 'Sleepless in Seattle', 'The Martian'];
+   bad = "";
 
    constructor() { }
 
    ngOnInit() {
+   }
+   addMovie (newTitle: string) {
+      if(!this.movies.includes(newTitle) && newTitle !== '') {
+         this.movies.push(newTitle);
+      } else { this.bad = "true";
+
+      }
    }
 }
