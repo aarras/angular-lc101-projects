@@ -5,7 +5,9 @@
 .doneChores {
     color: #3c79b8;
 }
-
+.earnIceCream {
+    color: rgb(79, 167, 79);
+}
 h3 {
     text-align: center;
 }
@@ -15,4 +17,7 @@ img {
     height: auto;
     display: block;
     margin: auto;
+}
+p {
+    text-align: center;
 }
