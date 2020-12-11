@@ -31,6 +31,7 @@ export class CandidatesComponent implements OnInit {
   clearCrew() {
    this.crew = [];
   }
+  changeMissionName(newName: string) {
+    this.missionName = newName;
+  }
  }
-
-  // BONUS: Code the changeMissionName function here:
